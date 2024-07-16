@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lv_conf.h
+
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S
+lv_blend_neon.h
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/draw/sw/blend/neon/lv_blend_neon.h
+
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/draw/sw/blend/neon/lv_blend_neon.h
+../../../../lv_conf_internal.h
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_internal.h
+
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_internal.h
+lv_conf_kconfig.h
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_kconfig.h
+lv_conf.h
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf.h
+../../lv_conf.h
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lv_conf.h
+
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/lv_conf_kconfig.h
+sdkconfig.h
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/sdkconfig.h
+esp_attr.h
+F:/R1100P/R3100P-refactoring/lv_port_pc_eclipse/lvgl/src/esp_attr.h
+nuttx/config.h
+-
+lv_rt_thread_conf.h
+-
+

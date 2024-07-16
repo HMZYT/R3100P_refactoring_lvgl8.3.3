@@ -1,0 +1,1 @@
+ lib/liblvgl.a lib/liblv_drivers.a lv_port_pc_eclipse/lvgl/liblvgl_examples.a lv_port_pc_eclipse/lvgl/liblvgl_demos.a D:/mingw64/lib/libSDL2main.a D:/mingw64/lib/libSDL2.dll.a -lm -lpthread lib/liblvgl.a -mwindows -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

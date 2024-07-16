@@ -1,0 +1,1 @@
+-I"F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse" -ID:/mingw64/include -ID:/mingw64/include/SDL2 -isystem "F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lvgl/examples" -isystem "F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lvgl"

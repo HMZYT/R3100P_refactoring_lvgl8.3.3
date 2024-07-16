@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lv_drivers"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lv_port_pc_eclipse\;CMake Files\lv_port_pc_eclipse\lv_drivers\;CMake Files\lv_port_pc_eclipse\lvgl\;CMake Files\lv_port_pc_eclipse\lvgl\env_support\;CMake Files\lv_port_pc_eclipse\lvgl\env_support\cmake\;CMake Files\mingw64\;CMake Files\mingw64\lib\;CMake Files\mingw64\lib\cmake\;CMake Files\mingw64\lib\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lv_drivers">
+				<Option output="F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lib/liblv_drivers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add directory="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse"/>
+					<Add directory="D:/mingw64/include"/>
+					<Add directory="D:/mingw64/include/SDL2"/>
+					<Add directory="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers"/>
+					<Add directory="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lvgl"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 lv_drivers"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lv_drivers/fast">
+				<Option output="F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lib/liblv_drivers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DLV_LVGL_H_INCLUDE_SIMPLE"/>
+					<Add option="-DLV_CONF_INCLUDE_SIMPLE"/>
+					<Add directory="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse"/>
+					<Add directory="D:/mingw64/include"/>
+					<Add directory="D:/mingw64/include/SDL2"/>
+					<Add directory="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers"/>
+					<Add directory="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lvgl"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 lv_drivers/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;F:/R1100P/R3100P-refactoring_lvgl8.3/cmake-build-debug/lv_port_pc_eclipse/lv_drivers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/GC9A01.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/GC9A01.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/ILI9341.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/ILI9341.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/R61581.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/R61581.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/SHARP_MIP.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/SHARP_MIP.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/SSD1963.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/SSD1963.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/ST7565.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/ST7565.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/UC1610.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/UC1610.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/drm.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/drm.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/fbdev.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/display/fbdev.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/gtkdrv/gtkdrv.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/gtkdrv/gtkdrv.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/AD_touch.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/AD_touch.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/FT5406EE8.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/FT5406EE8.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/XPT2046.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/XPT2046.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/evdev.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/evdev.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/libinput.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/xkb.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/indev/xkb.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/sdl/sdl.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/sdl/sdl.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/sdl/sdl_common.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/sdl/sdl_common.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/sdl/sdl_gpu.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/sdl/sdl_gpu.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/wayland/wayland.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/wayland/wayland.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/win32drv/win32drv.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/win32drv/win32drv.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/win_drv.c">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/win_drv.h">
+			<Option target="lv_drivers"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lv_drivers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lv_port_pc_eclipse\lv_drivers\"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lvgl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lv_port_pc_eclipse\lvgl\"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/lv_port_pc_eclipse/lvgl/env_support/cmake/custom.cmake">
+			<Option virtualFolder="CMake Files\lv_port_pc_eclipse\lvgl\env_support\cmake\"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/mingw64/lib/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\mingw64\lib\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="F:/R1100P/R3100P-refactoring_lvgl8.3/mingw64/lib/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\mingw64\lib\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
